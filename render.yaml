@@ -1,6 +1,11 @@
 services:
   - type: web
-    name: test-flask-api
-    env: python
+    name: flask-app
+    runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
+    envVars:
+      - key: KERAS_FILE_ID
+        value: your_file_id_here
+      - key: PKL_FILE_ID
+        value: your_file_id_here

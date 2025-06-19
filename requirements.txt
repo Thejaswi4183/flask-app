@@ -1,2 +1,7 @@
-flask
+Flask
+tensorflow==2.19.0
+numpy
+opencv-python-headless
+python-dotenv
+gdown
 gunicorn
