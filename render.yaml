@@ -1,9 +1,6 @@
 services:
   - type: web
-    name: artifact-age-api
+    name: test-flask-api
     env: python
-    buildCommand: |
-      pip install -r requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
-    envVars:
-      - fromDotEnv: true

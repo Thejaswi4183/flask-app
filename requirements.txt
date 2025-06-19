@@ -1,7 +1,2 @@
-Flask
+flask
 gunicorn
-tensorflow==2.11.0
-opencv-python
-numpy
-python-dotenv
-gdown
