@@ -1,7 +1,5 @@
-flask
-tensorflow-cpu==2.13.0
-opencv-python-headless
-numpy
-gunicorn
-gdown
-python-dotenv
+Flask==2.3.3
+tensorflow==2.11.0
+gdown==4.7.1
+python-dotenv==1.0.1
+opencv-python-headless==4.7.0.72
