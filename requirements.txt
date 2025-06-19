@@ -1,6 +1,6 @@
 flask
 tensorflow-cpu==2.13.0
-opencv-python
+opencv-python-headless
 numpy
 gunicorn
 gdown
